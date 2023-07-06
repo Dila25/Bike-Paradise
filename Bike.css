@@ -1,0 +1,239 @@
+/*Roboto Slab*/
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&family=Bebas+Neue&family=Dancing+Script:wght@700&family=Inter:wght@300&family=Libre+Franklin&family=Noto+Serif+Hebrew&family=Noto+Serif+JP:wght@500&family=Oswald&family=Roboto&family=Roboto+Condensed:wght@300;400&family=Roboto+Slab:wght@400;600;800&family=Sarala&family=Signika+Negative:wght@700&family=Staatliches&family=Zilla+Slab:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto Slab;
+}
+/*Nav Bar*/
+nav{
+    background-color: #131E2F;
+    margin: 0;
+    padding: 12px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.nav-item{
+   text-align: center;
+}
+nav a:hover{
+    background-color: white;
+    color: #131E2F;
+}
+
+/*Cover*/
+.Cover{
+    background-image: url("Photos/cover.jpg");
+    width: 100%;
+    height: 40vw;
+    margin: 0;
+    padding:0;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+.cover-head{
+    color: #ffffff;
+    font-size: 3vw;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/*Collections*/
+h2{
+    text-align: center;
+    color: #131E2F;
+    font-size: 50px;
+    padding: 15px;
+}
+.Card-img {
+    width: 70%;
+    height: 15vw;
+    border: 3px solid #131E2F; 
+    border-radius: 10px;
+    cursor: pointer;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 8px  rgba(0,0,0,.5) ;
+}
+.Photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+.card {
+    flex: 0 0 33.33%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+p{
+    color: #131E2F;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*scrollbar*/
+::-webkit-scrollbar{
+    width: 9px;
+    background-color: #131E2F;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #feffff;
+}
+
+/*Branches*/
+.Showroom{
+    padding: 20px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #131E2F;
+    padding: 20px;
+    width: 90%;
+    border-collapse: collapse;
+}
+th{
+    font-size: 35px;
+    height: auto;
+    padding: 10px;
+    border: 2px solid #131E2F;
+    background-color: #131E2F;
+    color: #ffffff;
+    border-collapse: collapse;  
+}
+td{
+    font-size: 30px;
+    height: auto;
+    padding: 10px; 
+    border: 2px solid #131E2F;
+    border-collapse: collapse;
+}
+
+/*More Details*/
+.details-box{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #131E2F;
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 0 8px  rgba(0,0,0,.5) ;  
+}
+.m{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;  
+}
+ul{
+    padding: 50px;
+}
+li{
+    font-size: 25px;
+    color: white;
+    padding: 8px;
+}
+h3{
+    font-size:30px;
+    padding: 15px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+/*Animation*/
+.animation {
+    width: 100px;
+    height: 80px;
+    background-color: #131E2F;
+    border-radius: 20%;
+    position: relative;
+    animation-name: move;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    text-align: center;
+    box-shadow: 0 0 8px  rgba(0,0,0,.5) ;
+}
+  
+@keyframes move {
+    0% {
+      left: 0;
+      right: 0;
+    }
+    
+    100% {
+      left: 93.8%;
+      right: 88%;
+    }
+}
+h6{
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+  .ani{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+  }
+
+/*Footer*/
+footer{
+    background-color: #131E2F;
+    margin: 0;
+    padding: 12px;
+}
+
+.icon{
+    text-align: center;
+    
+}
+
+.logo{
+    width: 2.1vw;
+    cursor: pointer;
+    padding: 0px 0px 0px 0px;
+
+}
+
+h4{
+    color: rgba(255, 255, 255, 0.863);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 650;
+    letter-spacing: 5px;
+    padding: 0px 0px 10px 0px;
+}
+
+h5{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.337);
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+/*End*/
